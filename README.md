@@ -1,6 +1,6 @@
 # AISwarmLab
 
-<img src="./imgs/logo.jpg">
+<img src="./src/imgs/logo.jpg">
 
 智能蜂群实验室（AI SwarmLab®）依托华东师范大学信息学部，汇集了 一支充满激情和创新的团队，致力于协同控制、强化学习、智能博弈、大模型等先进技术研究，专注于为研究人员和工程师提供跨域无人系统大规模集群虚实结合的轻量级可信仿真平台，为集群协同和博弈对抗算法提供集群数量规模可拓、场景复杂度可变、集群动态拓扑可调的综合解决方案。 
 
@@ -57,7 +57,7 @@ Mamba：Mambaforge-pypy3-Linux-x86_64
 
 示例1
 
-<img src="./imgs/wheelswarm_demo01.gif">
+<img src="./src/imgs/wheelswarm_demo01.gif">
 
 <center>图1 无人车集群互换位置避碰示例</center>
 
@@ -123,7 +123,7 @@ StartTrajectoryRequest(id, groupMask, trajectoryId, timescale, reversed, relativ
 
 如图2所示，在终端输入take_off、land、upload、fly、goto，分别实现起飞、降落、上传轨迹、按飞机飞行和GoTo等无人机高级控制指令。
 
-<img src="./imgs/crazyswarm_demo01.gif">
+<img src="./src/imgs/crazyswarm_demo01.gif">
 
 <center>图2 无人机集群高级飞行控制示例</center>
 
@@ -155,7 +155,7 @@ StartTrajectoryRequest(id, groupMask, trajectoryId, timescale, reversed, relativ
 
 如图3所示，10架无人机起飞后，绕着原点转圈飞行。
 
-<img src="./imgs/crazyswarm_demo02.gif">
+<img src="./src/imgs/crazyswarm_demo02.gif">
 
 <center>图3 无人机集群转圈飞行示例</center>
 
