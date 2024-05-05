@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find crazyswarm_ros)/config/crazyflies.yaml" command="load"/>
+    <node name="swarm_brain" pkg="swarm_brain" type="go_circle.py" ns = "/" output="screen">
+    </node>  
+</launch>

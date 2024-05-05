@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find crazyswarm_ros)/config/crazyflies.yaml" command="load"/>
+    <node name="swarm_view" pkg="swarm_view" type="pybullet_crazyswarm.py" ns = "/" output="screen">
+    </node>  
+</launch>

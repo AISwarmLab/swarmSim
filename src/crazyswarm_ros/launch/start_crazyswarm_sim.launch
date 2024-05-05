@@ -1,0 +1,11 @@
+<launch>
+    <!-- <group>     -->
+    <rosparam file="$(find crazyswarm_ros)/config/crazyflies.yaml" command="load"/>
+    <rosparam file="$(find crazyswarm_ros)/config/config_am_swarm.yaml" command="load"/>
+    <node name="crazyswarm_ros" pkg="crazyswarm_ros" type="crazyswarm_sim.py" ns = "/" output="screen">
+
+        <!-- <remap from="robot_1/pose" to="pose" /> -->
+    </node>
+    <!-- </group> -->
+    
+</launch>

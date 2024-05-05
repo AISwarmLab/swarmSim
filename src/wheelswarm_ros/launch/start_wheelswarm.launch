@@ -1,0 +1,9 @@
+<launch>
+    <!-- <group>     -->
+    <rosparam file="$(find wheelswarm_ros)/config/wheelswarm.yaml" command="load"/>
+    <node name="wheelswarm_ros" pkg="wheelswarm_ros" type="wheelswarm_sim.py" ns = "/" output="screen">
+        <!-- <remap from="robot_1/pose" to="pose" /> -->
+    </node>
+    <!-- </group> -->
+    
+</launch>

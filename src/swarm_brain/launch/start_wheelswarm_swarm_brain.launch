@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find wheelswarm_ros)/config/wheelswarm.yaml" command="load"/>
+    <node name="swarm_brain" pkg="swarm_brain" type="swarm_brain.py" ns = "/" output="screen">
+    </node>  
+</launch>
